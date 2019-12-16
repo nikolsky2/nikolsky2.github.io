@@ -1,0 +1,9 @@
+{
+	"applinks": {
+		"apps": [],
+		"details": [{
+			"appID": "H2574GVHSQ.com.gotmybottle.GotBottle",
+			"paths": ["*", "/"]
+		}]
+	}
+}
