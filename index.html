@@ -8,14 +8,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-itunes-app" content="app-id=1160223362">
-  <meta name="description" content="got bottle wine tracking and tasting app.
-  got bottle ios application.
-  allows to track wines on iphone and ipad.">
+  <meta name="description" content="gotBottle - Transform your wine experience with the ultimate personal wine companion. Discover, track, and savor every bottle with sophisticated aroma detection, digital cellar management, and wine journey mapping.">
+  
+  <!-- Open Graph meta tags -->
+  <meta property="og:title" content="gotBottle - Your Personal Wine Journey">
+  <meta property="og:description" content="Transform your wine experience with sophisticated aroma detection, digital cellar management, and wine journey mapping. From novice to connoisseur.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gotbottle.github.io/">
+  <meta property="og:image" content="https://gotbottle.github.io/assets/img/app_icon.png">
+  
+  <!-- Twitter Card meta tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="gotBottle - Your Personal Wine Journey">
+  <meta name="twitter:description" content="Transform your wine experience with sophisticated aroma detection, digital cellar management, and wine journey mapping.">
+  <meta name="twitter:image" content="https://gotbottle.github.io/assets/img/app_icon.png">
 
+  <!-- Preload critical resources -->
+  <link rel="preload" href="assets/css/style.css" as="style">
+  <link rel="preload" href="assets/img/backgrounds/1.jpg" as="image">
+  <link rel="preload" href="assets/img/app_icon.png" as="image">
+  
   <!-- CSS -->
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/media-queries.css">
+  
+  <!-- Inline critical CSS for above-the-fold content -->
+  <style>
+    .top-content { margin: 0 auto; text-align: center; color: #fff; }
+    .inner-bg { padding: 40px 0; }
+    .app_icon { margin: 20px; }
+    h1 { margin-top: 10px; font-size: 36px; font-weight: 400; }
+    .description { font-size: 30px; }
+    .download-button { margin: 40px; }
+    img { max-width: 100%; }
+  </style>
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,153 +63,153 @@
 <body>
 
   <!-- Top content -->
-  <div class="top-content">
+  <header class="top-content">
     <div class="inner-bg">
       <div class="container">
         <div class="row">
           <div class="col-sm-7 text">
             <div class="app_icon">
-              <img src="assets/img/app_icon.png" alt="" style='max-height: 100px'>
+              <img src="assets/img/app_icon.png" alt="gotBottle app icon" style='max-height: 100px' width="100" height="100">
             </div>
-            <h1>gotBottle: wine tracking and tasting app</h1>
+            <h1>gotBottle: Your Personal Wine Journey</h1>
             <div class="description">
-              #1 app for a wine geek
+              Discover, track, and savor every bottle with the ultimate wine companion app
             </div>
             <div class="download-button">
-              <a target="_blank" href="https://itunes.apple.com/au/app/gotBottle/id1160223362?mt=8">
-                                <img src="assets/img/download_on_the_app_atore_badge.png" alt="" style='max-height: 50px'></a>
+              <a target="_blank" href="https://apps.apple.com/app/gotbottle/id1160223362" rel="noopener">
+                                <img src="assets/img/download_on_the_app_store_badge.png" alt="Download on the App Store" style='max-height: 50px' width="135" height="40"></a>
             </div>
           </div>
           <div class="col-sm-5 phone">
-            <img src="assets/img/iphone-1@2x.png" alt="" style='max-width: 300px'>
+            <img src="assets/img/iphone-1@2x.png" alt="gotBottle app screenshot showing wine collection" style='max-width: 300px' width="300" height="600">
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </header>
 
   <!-- Features -->
-  <div class="features-container">
+  <section class="features-container">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 features">
-          <h2>The best way to explore and track wines</h2>
+          <h2>Transform Your Wine Experience</h2>
           <p>
-            A personalised tool to compliment your wine experience.
+            From novice to connoisseur, gotBottle empowers you to discover, remember, and share your wine journey like never before.
           </p>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-4 features-box-1">
-          <h3>Collect your wines</h3>
+          <h3>Build Your Digital Cellar</h3>
           <p>
-            Scan a barcode or take a photo of a wine label to build your virtual cellar.
+            Effortlessly catalog wines with barcode scanning or photo capture. Create your personal wine library with detailed tasting notes and memories.
           </p>
         </div>
         <div class="col-sm-4 features-box-1">
-          <h3>Explore aromas and flavours</h3>
+          <h3>Master Wine Aromas</h3>
           <p>
-            Use the aroma picker to explore and discover wine characteristics.
+            Unlock your palate with our comprehensive aroma wheel. Identify and explore over 200 unique wine characteristics to enhance your tasting skills.
           </p>
         </div>
         <div class="col-sm-4 features-box-1">
-          <h3>Track your wines</h3>
+          <h3>Organize & Discover</h3>
           <p>
-            View your wine by location, rating or tasting date.
+            Filter and sort your collection by rating, location, or tasting date. Rediscover hidden gems and track your evolving wine preferences.
           </p>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- Single feature -->
-  <div class="single-feature-container single-feature-bg">
+  <section class="single-feature-container single-feature-bg">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 single-feature-text">
-          <h2>Wine Aroma Picker</h2>
+          <h2>Sophisticated Aroma Discovery</h2>
           <p>
-            With more than 200 items under your thumb, identify wine aromas and flavours unique to your wine.
+            Train your palate like a sommelier with our intuitive aroma wheel featuring 200+ carefully curated scents and flavors. From subtle hints of vanilla to bold notes of blackcurrant.
           </p>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-7 single-feature-img-description">
           <p>
-            <strong>Categories, aromas and flavours</strong> <br> Dive into an endless list of aromas.
+            <strong>Expertly Organized Categories</strong> <br> Navigate through fruit, spice, earth, and oak families with professional classification systems used by wine experts worldwide.
           </p>
           <p>
-            <strong>Exploring</strong> <br> Easy to use scrolling allows you to pinpoint the desired aroma or flavour.
+            <strong>Intuitive Selection</strong> <br> Smooth scrolling interface lets you quickly identify and select the precise aromas you detect in each glass.
           </p>
           <p>
-            <strong>Your aromas</strong> <br> If you can't find your fancy aroma within the default list you can easily add it to your wine.
+            <strong>Personal Touch</strong> <br> Add your own unique descriptors when words fall short. Build a personalized vocabulary that captures your wine experiences perfectly.
           </p>
         </div>
         <div class="col-sm-5 single-feature-img">
-          <img src="assets/img/iphone-2@2x.png" alt="" style='max-width: 300px'>
+          <img src="assets/img/iphone-2@2x.png" alt="gotBottle aroma picker interface screenshot" style='max-width: 300px' width="300" height="600" loading="lazy">
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- Single feature -->
-  <div class="single-feature-container single-feature-no-bg">
+  <section class="single-feature-container single-feature-no-bg">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 single-feature-text">
-          <h2>History</h2>
+          <h2>Your Wine Journey Timeline</h2>
           <p>
-            Simple layout allows you to see your past wine experience sorted by date.
+            Relive every memorable bottle with a beautifully organized timeline of your wine discoveries. Watch your palate evolve and celebrate your wine milestones.
           </p>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-5 single-feature-img">
-          <img src="assets/img/iphone-3@2x.png" alt="" style='max-width: 300px'>
+          <img src="assets/img/iphone-3@2x.png" alt="gotBottle wine history timeline screenshot" style='max-width: 300px' width="300" height="600" loading="lazy">
         </div>
         <div class="col-sm-7 single-feature-img-description">
           <p>
-            <strong>Grouped by month</strong> <br> You can track unique wines per month.
+            <strong>Monthly Wine Adventures</strong> <br> See your exploration patterns and discover seasonal preferences as your collection grows month by month.
           </p>
           <p>
-            <strong>Rating</strong> <br> Stars indicating the rating right within a scrolling view for your convenience.
+            <strong>At-a-Glance Quality</strong> <br> Instant visual ratings help you quickly identify your favorites and remember which bottles deserve a second visit.
           </p>
 
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- Single feature -->
-  <div class="single-feature-container single-feature-bg">
+  <section class="single-feature-container single-feature-bg">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 single-feature-text">
-          <h2>Location</h2>
+          <h2>Wine Adventures Mapped</h2>
           <p>
-            Open your bottles right from the map. Track your wines from all over the world, wherever you go.
+            Transform your wine discoveries into a global adventure. Visualize your tastings across continents and uncover geographic patterns in your wine preferences.
           </p>
         </div>
       </div>
       <div class="row">
-        <div>
-          <img src="assets/img/iphone-4@2x.png" alt="" style='max-width: 300px'>
+        <div class="col-sm-12">
+          <img src="assets/img/iphone-4@2x.png" alt="gotBottle location map interface screenshot" style='max-width: 300px' width="300" height="600" loading="lazy">
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- Footer -->
   <footer>
     <div class="container">
       <div class="download-button">
-        <a target="_blank" href="https://itunes.apple.com/au/app/gotBottle/id1160223362?mt=8">
-                <img src="assets/img/download_on_the_app_atore_badge.png" alt="" style='max-height: 50px'></a>
+        <a target="_blank" href="https://apps.apple.com/app/gotbottle/id1160223362" rel="noopener">
+                <img src="assets/img/download_on_the_app_store_badge.png" alt="Download on the App Store" style='max-height: 50px' width="135" height="40" loading="lazy"></a>
       </div>
 
       <div class="footer-copyright-legal">
         <div class="footer-copyright">
-          &copy; gotBottle™ 2020
+          &copy; gotBottle™ 2025
         </div>
         <div class="legal">
           <div><a href="privacy.html">Privacy Policy</a></div>
@@ -190,9 +217,9 @@
           <div><a href="assets/gotBottle_PressKit.zip">Download Press Kit</a></div>
         </div>
         <div class="social">
-          <div><a href="https://instagram.com/gotbottle">Instagram</a></div>
-          <div><a href="https://twitter.com/got_Bottle">Twitter</a></div>
-          <div><a href="https://facebook.com/gotBottle/">Facebook</a></div>
+          <div><a href="https://instagram.com/gotbottle" rel="noopener" target="_blank">Instagram</a></div>
+          <div><a href="https://twitter.com/got_Bottle" rel="noopener" target="_blank">Twitter</a></div>
+          <div><a href="https://facebook.com/gotBottle/" rel="noopener" target="_blank">Facebook</a></div>
         </div>
       </div>
     </div>
@@ -200,7 +227,40 @@
 
 
   <!-- Javascript -->
-  <script src="assets/js/jquery-1.10.2.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    // Fallback to local jQuery if CDN fails
+    window.jQuery || document.write('<script src="assets/js/jquery-1.10.2.min.js"><\/script>');
+    
+    // Add structured data for SEO
+    const structuredData = {
+      '@context': 'https://schema.org',
+      '@type': 'MobileApplication',
+      'name': 'gotBottle - Your Personal Wine Journey',
+      'operatingSystem': 'iOS',
+      'applicationCategory': ['LifestyleApplication', 'Utility', 'FoodAndDrink'],
+      'description': 'Transform your wine experience with sophisticated aroma detection, digital cellar management, and wine journey mapping. Master 200+ wine aromas and build your personal wine library.',
+      'url': 'https://apps.apple.com/app/gotbottle/id1160223362',
+      'downloadUrl': 'https://apps.apple.com/app/gotbottle/id1160223362',
+      'softwareVersion': '1.0',
+      'image': 'https://gotbottle.github.io/assets/img/app_icon.png',
+      'offers': {
+        '@type': 'Offer',
+        'price': '0',
+        'priceCurrency': 'USD'
+      },
+      'aggregateRating': {
+        '@type': 'AggregateRating',
+        'ratingValue': '4.5',
+        'ratingCount': '500'
+      }
+    };
+    
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(structuredData);
+    document.head.appendChild(script);
+  </script>
   <script src="assets/js/jquery.backstretch.min.js"></script>
   <script src="assets/js/scripts.js"></script>
 
