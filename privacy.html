@@ -18,11 +18,12 @@
     <div class="content">
 
       <a href="https://itunes.apple.com/us/app/gotBottle/id1160223362?mt=8">
-      <img src="assets/img/app_icon.png" alt="" style="max-height: 100px">
-    </a>
+        <img src="assets/img/app_icon.png" alt="gotBottle App Icon" style="max-height: 100px">
+      </a>
+      <p><em>Available on iOS and Android</em></p>
 
       <h1>Privacy Policy</h1>
-      <p><em>(Last updated: October 14, 2025)</em></p>
+      <p><em>(Last updated: March, 2026)</em></p>
 
       <p><strong>PLEASE READ THE FOLLOWING PRIVACY POLICY CAREFULLY BEFORE USING THIS APP. BY ACCESSING OR USING OUR APP (OTHER THAN TO READ THIS PRIVACY POLICY FOR THE FIRST TIME), YOU AGREE TO THE TERMS OF THIS PRIVACY POLICY.</strong></p>
 
@@ -44,12 +45,20 @@
         <li>To analyze app usage and performance</li>
         <li>To fix bugs and improve app stability</li>
         <li>To provide location-based features when requested</li>
+        <li>To process data through Google Firebase AI for analysis and app improvements</li>
+      </ul>
+
+      <h3>What we do NOT share:</h3>
+      <ul>
+        <li><strong>Location Data:</strong> Your location information is never shared with third parties</li>
+        <li><strong>Personal Data:</strong> Your personal information is never sold or shared with third parties for marketing purposes</li>
       </ul>
 
       <h3>Third-party services we use:</h3>
       <ul>
         <li><strong>Google Analytics for Firebase:</strong> App analytics and usage tracking</li>
         <li><strong>Firebase Crashlytics:</strong> Crash reporting and app stability monitoring</li>
+        <li><strong>Google Firebase AI:</strong> Processing text from wine label photos to provide AI-powered wine analysis</li>
       </ul>
 
       <h3>Your rights:</h3>
@@ -68,7 +77,7 @@
       <h4>Information Collected Automatically</h4>
       <ul>
         <li><strong>Usage Data:</strong> Information about how you interact with the app, including features used, session duration, and user interactions</li>
-        <li><strong>Device Information:</strong> Device model, operating system version, unique device identifiers (such as IDFA on iOS or Android Advertising ID), app version, and system language</li>
+        <li><strong>Device Information:</strong> Device model, operating system version (iOS or Android), unique device identifiers (such as IDFA on iOS or Advertising ID on Android), app version, and system language</li>
         <li><strong>Technical Data:</strong> IP address, browser type (if applicable), crash logs, and performance data</li>
       </ul>
 
@@ -164,6 +173,19 @@
           <p>Firebase Crashlytics is a crash reporting service provided by Google LLC that helps us identify and fix app crashes and stability issues. Crashlytics automatically collects crash reports, including stack traces and device information, when the app encounters an error.</p>
           <p>This service helps us improve app reliability by providing detailed crash reports that allow us to identify and resolve issues quickly.</p>
         </div>
+
+        <h4>Google Firebase AI (Google LLC)</h4>
+        <div>
+          <p>Google Firebase AI is used to process text extracted from wine label photos taken by users. This enables the app to provide AI-powered wine analysis, including information about the wine, tasting notes, and recommendations.</p>
+          <p><strong>Important:</strong> Only the text from wine labels is sent to Firebase AI for analysis. Personal data and location information are never passed to this service.</p>
+        </div>
+        <p>
+          <strong>Data collected:</strong> Text extracted from wine label photos for analysis purposes.
+        </p>
+        <p>
+          <strong>Place of processing:</strong> United States and other Google data centers worldwide -
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>.
+        </p>
         <p>
           <strong>Data collected:</strong> Crash logs, stack traces, device model, operating system version, app version, and timestamp of crashes.
         </p>
@@ -179,12 +201,12 @@
       <div>
         <h4>Non-continuous geolocation (this Application)</h4>
         <div>
-          <p>This Application may collect, use, and share User location Data in order to provide location-based services.<br> Most browsers and devices provide tools to opt out from this feature by default. If explicit authorization has been provided, the
-            User’s location data may be tracked by this Application.<br> The geographic location of the User is determined in a manner that isn't continuous, either at the specific request of the User or when the User doesn't point out its current location
+          <p>This Application may collect and use User location Data in order to provide location-based services. <strong>Your location data is never shared with third parties.</strong><br> Most browsers and devices provide tools to opt out from this feature by default. If explicit authorization has been provided, the
+            User's location data may be used by this Application.<br> The geographic location of the User is determined in a manner that isn't continuous, either at the specific request of the User or when the User doesn't point out its current location
             in the appropriate field and allows the application to detect the position automatically.</p>
         </div>
         <p>
-          Personal Data collected: geographic position.
+          Personal Data collected: geographic position (stored locally, not shared).
         </p>
       </div>
 
@@ -292,7 +314,16 @@
       <h3>California Residents</h3>
       <p>If you are a California resident, you have additional rights under the CCPA, including the right to know what personal information we collect, the right to delete personal information, and the right to opt-out of the sale of personal information. We do not sell personal information to third parties.</p>
       
-      <p><strong>Scope:</strong> This privacy policy applies solely to the gotBottle mobile application and does not cover any third-party websites, applications, or services that may be linked to or integrated with our app.</p>
+      <p><strong>Scope:</strong> This privacy policy applies to the gotBottle mobile application on both iOS and Android platforms and does not cover any third-party websites, applications, or services that may be linked to or integrated with our app.</p>
+
+      <h3>Data Sharing Summary</h3>
+      <p>To be clear about our data practices:</p>
+      <ul>
+        <li><strong>Location Data:</strong> Never shared with third parties</li>
+        <li><strong>Personal Data:</strong> Never sold or shared with third parties</li>
+        <li><strong>Analytics Data:</strong> Shared with Google Firebase services for app improvement (anonymized)</li>
+        <li><strong>Crash Data:</strong> Shared with Firebase Crashlytics to fix bugs (technical data only)</li>
+      </ul>
 
     </div>
 
@@ -300,14 +331,9 @@
 
   <footer>
     <div id="container" class="docpage">
-      <p>&copy; gotBottle&trade; <span id="current-year">2018</span></p>
+      <p>&copy; gotBottle&trade; 2026</p>
     </div>
   </footer>
-
-  <script>
-    // Update the year to current year
-    document.getElementById('current-year').textContent = new Date().getFullYear();
-  </script>
 
 </body>
 
