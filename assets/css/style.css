@@ -68,8 +68,23 @@ img {
   margin: 20px;
 }
 
+.app_icon img {
+  max-height: 100px;
+}
+
+.screenshot-main {
+  max-width: 300px;
+  height: auto;
+}
+
 .top-content .download-button {
   margin: 40px;
+}
+
+.download-button img {
+  height: auto;
+  width: auto;
+  max-width: 150px;
 }
 
 .description {
@@ -136,6 +151,11 @@ img {
 
 .single-feature-img {
   margin-top: 30px;
+}
+
+.single-feature-img img {
+  max-width: 300px;
+  height: auto;
 }
 
 .single-feature-img-description {
@@ -205,41 +225,68 @@ footer {
   text-align: center;
 }
 
-.legal {
-  text-align: left;
+footer .download-button {
+  margin-bottom: 30px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  padding: 28px 0;
+  border-top: 1px solid #333;
 }
 
 .footer-copyright {
-  font-size: 18px;
-  text-align: left;
-  line-height: 32px;
+  width: 100%;
+  margin-top: 28px;
+  text-align: center;
+}
+
+.footer-copyright p {
+  width: 100%;
+  font-size: 16px;
   color: #fff;
-  width: 100%;
-  float: left;
-  margin-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.footer-copyright a {
+.footer-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.footer-links,
+.footer-social {
+  text-align: center;
+  margin: 8px 0;
+}
+
+.footer-social {
+  margin: 16px 0;
+}
+
+.footer-links a,
+.footer-social a {
+  display: inline-block;
   color: #fff;
-  border-bottom: 1px dashed #eee;
+  font-size: 14px;
+  margin: 0 10px;
+  transition: color 0.3s;
 }
 
-.footer-copyright a:hover {
-  border: 0;
+.footer-links a:hover,
+.footer-social a:hover {
+  color: #888;
 }
 
-.footer-copyright-legal {
-  margin: 30px;
-}
-
-.legal {
-  width: 100%;
-  float: left;
-}
-
-.social {
-  text-align: left;
-  width: 100%;
-  float: left;
-  margin: 20px 0;
+@media (max-width: 767px) {
+  .footer-row {
+    gap: 15px;
+  }
 }
