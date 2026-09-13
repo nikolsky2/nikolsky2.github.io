@@ -10,16 +10,16 @@ body {
 }
 
 .docpage {
-  margin: 100px auto;
-  padding: 0 30px;
+  margin: 0 auto 100px;
+  padding: 124px 30px 0;
   max-width: 800px;
 }
 
 /* Mobile-first responsive design */
 @media (max-width: 768px) {
   .docpage {
-    margin: 50px auto;
-    padding: 0 20px;
+    margin: 0 auto 50px;
+    padding: 106px 20px 0;
   }
   
   body {
@@ -34,8 +34,8 @@ body {
 
 @media (max-width: 480px) {
   .docpage {
-    margin: 30px auto;
-    padding: 0 15px;
+    margin: 0 auto 30px;
+    padding: 94px 15px 0;
   }
   
   body {
@@ -202,6 +202,7 @@ em {
   }
   
   .docpage {
-    padding: 0 10px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
